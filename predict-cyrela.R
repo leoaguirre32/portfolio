@@ -1,4 +1,4 @@
-#AGUAS-CLARAS
+# ...
 
 mod1<-glm(valor ~ quartos + suites + garagens + m2 + factor(bairro),
           data=subset(apto,subset=(nome_cidade=="AGUAS-CLARAS")),family=Gamma(link="log"))
